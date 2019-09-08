@@ -1,0 +1,77 @@
+/* 12. Blog */
+.section-devider {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .blog-area .section-title h4 {
+    color: #5d6c83;
+  }
+  .single-blog-post img {
+    width: 100%;
+  }
+  .single-blog-content  {
+      padding-top: 35px;
+  }
+  span.blog-date {
+    color: #5d6c83;
+    font-size: 14px;
+  }
+  .single-blog-content h4 {
+    color: #1b1b1b;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    padding-top: 16px;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+  .single-blog-content h4:hover {
+    color: #f9676b;
+  }
+  .read-more.blog-btn i {
+      padding-left: 6px;
+  }
+  .read-more.blog-btn:hover i {
+      padding-left: 15px;
+  }
+  /* 13. Gallery */
+  .single-gallery-item {
+    position: relative;
+  }
+  .gallery-info {
+      bottom: 14px;
+      left: 26px;
+      position: absolute;
+  }
+  .gallery-info h4 {
+      color: #fff;
+      font-weight: 400;
+      margin-bottom: 6px;
+  }
+  
+  .gallery-info h6 {
+      color: #fff;
+      font-weight: 400;
+  }
+  .gallary-video {
+    bottom: 18px;
+    position: absolute;
+    right: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+  .gallary-video a.video-play.video-btn i {
+      background: transparent none repeat scroll 0 0;
+      border: 1px solid #fff;
+      color: #fff;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      width: 45px;
+      font-size: 10px;
+  }
+  .single-gallery-item:hover .gallary-video {
+    opacity: 1;
+    visibility: visible;
+  }

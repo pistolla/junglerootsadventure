@@ -1,0 +1,43 @@
+/* 14. Footer */
+.footer-area {
+	background-color: #008cba;
+}
+.footer-top-area {
+  padding-bottom: 77px;
+  padding-top: 113px;
+}
+.footer-widget > h4 {
+	color: #fff;
+  font-weight: 700;
+  padding-bottom: 29px;
+}
+.footer-widget ul.footer-social-icon li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 27px;
+}
+.footer-widget ul.footer-social-icon li i {
+	color: #898989;
+	transition: 0.5s;
+}
+.footer-widget ul.footer-social-icon li:hover i {
+	color: #f9676b;
+}
+.footer-widget ul.footer-link li {
+  padding-bottom: 10px;
+}
+.footer-widget ul.footer-link li a {
+	color: #fff;
+	font-size: 14px;
+	transition: 0.5s;
+}
+.footer-widget ul.footer-link li:hover a {
+	color: #f9676b;
+}
+.copyright-area {
+  padding-bottom: 52px;
+}
+.copyright-area p.copyright {
+	color: #fff;
+	font-size: 14px;
+}

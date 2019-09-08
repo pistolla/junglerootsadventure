@@ -1,0 +1,41 @@
+<!-- Main -->
+<div class="row align-self-stretch">
+  <div class="view col-md-11 pl-0" [containerInside]="false" style="height: 520px; max-height: 520px; min-height: 520px;">
+
+    <!--Carousel Wrapper-->
+    <mdb-carousel [isControls]="false" [keyboard]="true" class="carousel slide carousel-slide" [animation]="'slide'" data-interval="3000">
+      <!--Carousel slide-->
+      <mdb-slide *ngFor="let slide of items">
+        <img class="w-100" src="{{slide}}" alt="slide" height="520">
+        <!-- <video class="d-block w-100 main-carousel-img video-fluid" alt="slide" autoplay loop>
+          <source src="{{slide}}" type="video/webm" />
+        </ video>-->
+
+        <div class="carousel-caption mt-0 text-right d-flex flex-column">
+          <div class="promote-content text-center">
+            <a class="btn btn-lg btn-outline orange" href="#" style="border: 1px solid orange">
+              <i class="fa fa-touch"></i>Book with us</a>
+
+          </div>
+        </div>
+      </mdb-slide>
+      <!--/Carousel slide-->
+
+    </mdb-carousel>
+    <!--/.Carousel Wrapper-->
+
+  </div>
+  <div class="col-md-1 pl-0">
+    <div class="row">
+      <div class="h-100" style="z-index: 1000;">
+        <ul class="list-inline" *ngFor="let sample of items">
+          <li class="list-inline-item p-0">
+            <a type="button" class="hoverable" title="Click to view">
+              <img class="img-fluid" src="{{sample}}" alt="slide" height="130" width="150">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

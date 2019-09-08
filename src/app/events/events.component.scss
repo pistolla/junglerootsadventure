@@ -1,0 +1,65 @@
+
+  /* 9. Package */
+  .package-area.home-package {
+      background: url(../../assets/img/bg/pack-bg.jpg);
+      -webkit-background-size: cover;
+      background-size: cover;
+      z-index: 1;
+  }
+  .section-title h2 {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding-bottom: 13px;
+  }
+  .section-title h4 {
+    font-size: 20px;
+  }
+  .package-img {
+      position: relative;
+  }
+  .package-img > img {
+    width: 100%;
+  }
+  .package-cost {
+      left: 0;
+      bottom: 0;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 34px;
+      padding-left: 16px;
+      padding-right: 16px;
+      position: absolute;
+      background: #f9676b;
+      display: inline-block;
+  }
+  .single-package > h5 {
+    font-weight: 700;
+    padding-bottom: 14px;
+    padding-top: 33px;
+  }
+  .single-package span {
+    font-size: 20px;
+  }
+  .single-package > p {
+    font-size: 16px;
+    padding-bottom: 25px;
+  }
+  .read-more {
+    color: #f9676b;
+    font-size: 15px;
+  }
+  .read-more i {
+      transition: 0.5s;
+  }
+  .read-more:hover {
+      color: #f9676b;
+  }
+  .read-more:hover i {
+      padding-left: 5px;
+  }
+  .more-package {
+    padding-top: 62px;
+  }
+  
